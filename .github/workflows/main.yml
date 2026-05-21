@@ -10,5 +10,10 @@ jobs:
     steps:
         - name: Print a welcome message
           run: echo "welcome to our first githup action workflow"
+        - name: Checkout repository
+         uses: actions/checkout@v6.0.2
+        - name: List repository files
+        run: ls -la
         
+         
         
