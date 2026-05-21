@@ -5,11 +5,10 @@ on:
     branches:
       - main
 jobs:
-  example-jop:
-  runs-on: ubuntu-latest
-
+  example-job:
+    runs-on: ubuntu-latest
     steps:
-    - name: Print a welcome message
-    run: echo "welcome to our first githup action workflow"
-    
-    
+        - name: Print a welcome message
+          run: echo "welcome to our first githup action workflow"
+        
+        
